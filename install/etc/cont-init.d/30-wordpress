@@ -2,6 +2,8 @@
 
 source /assets/functions/00-container
 prepare_service
+PROCESS_NAME="wordpress"
+
 
 sanity_db mariadb
 sanity_var SITE_URL "Site URL"
